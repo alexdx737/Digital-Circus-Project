@@ -15,5 +15,15 @@
 ```bash
     git clone https://github.com/alexdx737/Digital-Circus-Project.git
 
-    cd Digital-Circus-Project
-```
+    cd digitalcircus
+
+    flutter run -d web-server --web-hostname 0.0.0.0 --web-port 8080 
+``
+Con eso deberia poder abrise la pagina web de flutter.
+
+para modificar y agregar cosas es dentro de la carpeta
+
+flutter run -d web-server --web-hostname 0.0.0.0 --web-port 8080
+
+# Arquitectura
+La arquitectura del rpyecto es la siguiente
