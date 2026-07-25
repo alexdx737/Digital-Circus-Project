@@ -1,0 +1,5 @@
+package com.example.digitalcircus
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
