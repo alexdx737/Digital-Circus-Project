@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   MaterialPageRoute(builder: (context) => const OtraPantalla()),
                 );
               },
-              child: const Text('Ir a otra pantalla'),
+              child: const Text('Ir a otra pantalla TEST commit'),
             ),
           ],
         ),
