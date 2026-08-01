@@ -205,7 +205,7 @@ class _WireframeCubePainter extends CustomPainter {
     }
 
     final glowPaint = Paint()
-      ..color = const Color(0xFF65E2FF).withOpacity(0.22)
+      ..color = const Color(0xFF65E2FF).withValues(alpha: 0.22)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 6
       ..strokeCap = StrokeCap.round;
@@ -217,7 +217,7 @@ class _WireframeCubePainter extends CustomPainter {
       ..strokeCap = StrokeCap.round;
 
     final scanlinePaint = Paint()
-      ..color = Colors.white.withOpacity(0.03)
+      ..color = Colors.white.withValues(alpha: 0.03)
       ..strokeWidth = 1;
 
     for (double y = 0; y < size.height; y += 4) {

@@ -24,7 +24,7 @@ class OtraPantalla extends StatelessWidget {
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.grey.shade400, width: 2),
                     borderRadius: BorderRadius.circular(12),
-                    color: Colors.black.withOpacity(0.03),
+                    color: Colors.black.withValues(alpha: 0.03),
                   ),
                   child: Stack(
                     fit: StackFit.expand,
@@ -34,7 +34,7 @@ class OtraPantalla extends StatelessWidget {
                         child: Image.asset(
                           _demoImagePath,
                           fit: BoxFit.cover,
-                          errorBuilder: (_, __, ___) {
+                          errorBuilder: (_, _, _) {
                             return const Center(
                               child: Icon(Icons.image_not_supported, size: 42),
                             );

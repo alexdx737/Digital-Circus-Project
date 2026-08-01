@@ -19,7 +19,6 @@
 
     flutter run -d web-server --web-hostname 0.0.0.0 --web-port 8080 
 ```
-
 Con eso deberia poder abrise la pagina web de flutter.
 
 para modificar y agregar cosas es dentro de la carpeta `lib/main.dart`
@@ -40,7 +39,7 @@ DIGITAL-CIRCUS-PROJECT/
 │	├──	lib/ 
 │	│	└── main.dart
 │	├── Linux/
-│	│	├── dependencias/
+│	│	├── dependencias/f
 │	│	└──etc../
 │	├── Mac/
 │	│	├── dependencias/
